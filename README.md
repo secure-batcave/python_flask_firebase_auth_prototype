@@ -4,15 +4,15 @@ Simple integration of Firebase Auth in Python Flask app.
 
 ## Important links for configuration:
 https://console.firebase.google.com/<br/>
--Authentication -> Sign-in method<br/>
-    -enables different sign in providers<br/>
--Authentication -> Settings -> Authorized domains<br/>
-    -domains Firebase trusts to send token eg. 127.0.0.1<br/>
+Authentication -> Sign-in method<br/>
+-enables different sign in providers<br/><br/>
+Authentication -> Settings -> Authorized domains<br/>
+-domains Firebase trusts to send token eg. 127.0.0.1<br/>
 
-https://console.cloud.google.com/
--APIs & Services -> Credentials -> OAuth 2.0 Client IDs (edit project)<br/>
-    -edit Authorized JavaScript origins and Authorized redirect URIs<br/>
-        -redirect URI "/auth/handler" is required for Firebase Auth<br/>
+https://console.cloud.google.com/<br/>
+APIs & Services -> Credentials -> OAuth 2.0 Client IDs (edit project)<br/>
+-edit Authorized JavaScript origins and Authorized redirect URIs<br/>
+-redirect URI "/auth/handler" is required for Firebase Auth<br/>
 
 ## Install
 ```
