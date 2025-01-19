@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flask Firebase Auth</title>
+</head>
+<body>
+    <h1>Welcome to Flask with Firebase Auth</h1>
+
+    <!-- Social Login Buttons -->
+    <div id="login-buttons">
+        <button id="google-login">Login with Google</button>
+        <button id="facebook-login" disabled>Login with Facebook (Coming Soon)</button>
+        <button id="microsoft-login" disabled>Login with Microsoft (Coming Soon)</button>
+        <button id="github-login" disabled>Login with GitHub (Coming Soon)</button>
+        <button id="apple-login" disabled>Login with Apple (Coming Soon)</button>
+        <button id="twitter-login" disabled>Login with Twitter (Coming Soon)</button>
+        <button id="yahoo-login" disabled>Login with Yahoo (Coming Soon)</button>
+    </div>
+
+    <!-- Logout Button -->
+    <button id="logout-button" style="display: none;">Logout</button>
+
+    <!-- User Information -->
+    <div id="user-info" style="margin-top: 20px;">
+        <p>No user logged in</p>
+    </div>
+
+    <!-- Load JavaScript -->
+    <script type="module" src="/static/index.js"></script>
+</body>
+</html>
