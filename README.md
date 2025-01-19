@@ -16,6 +16,7 @@ APIs & Services -> Credentials -> OAuth 2.0 Client IDs (edit project)<br/>
 
 ## Install
 ```
+cd <project_directory>
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
